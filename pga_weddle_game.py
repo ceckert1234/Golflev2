@@ -4,7 +4,7 @@ import pandas as pd
 import random
 
 # Load the cleaned data from GitHub raw URL
-df = pd.read_csv("https://raw.githubusercontent.com/your-username/your-repo/main/Cleaned_Top_20_Golfers_March_2025_with_Wins_and_Majors.txt")
+df = pd.read_csv("https://raw.githubusercontent.com/ceckert1234/Golflev2/refs/heads/main/Top_20_Golfers_March_2025_with_Wins_and_Majors.txt")
 df.columns = df.columns.str.strip()
 
 # Color scheme
